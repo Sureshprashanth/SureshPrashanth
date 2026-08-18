@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Suresh Prashanth — SDET Lead, Test Automation Architect and Quality Engineering Specialist.">
+<title>Suresh Prashanth | SDET Lead & Test Automation Architect</title>
+<style>
+:root{--bg:#070b14;--panel:#0d1422;--panel2:#111b2c;--text:#eef4ff;--muted:#9aa9c0;--line:#22304a;--accent:#62d5ff;--accent2:#9b7cff;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#18204a 0,transparent 32%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.container{width:min(var(--max),92%);margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(7,11,20,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.5px}.brand span{color:var(--accent)}.navlinks{display:flex;gap:24px;color:var(--muted);font-size:14px}.navlinks a:hover{color:#fff}
+.hero{padding:110px 0 80px;display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.03);color:var(--accent);font-size:13px;font-weight:700}.hero h1{font-size:clamp(48px,7vw,82px);line-height:.98;letter-spacing:-4px;margin:20px 0}.gradient{background:linear-gradient(100deg,#fff,var(--accent),#b79cff);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{font-size:19px;color:var(--muted);max-width:700px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 18px;border-radius:12px;border:1px solid var(--line);font-weight:700;transition:.2s}.btn.primary{background:#fff;color:#07101b;border-color:#fff}.btn:hover{transform:translateY(-2px)}.orb{height:340px;border-radius:36px;background:linear-gradient(145deg,rgba(98,213,255,.16),rgba(155,124,255,.12));border:1px solid var(--line);position:relative;overflow:hidden}.orb:before{content:"";position:absolute;width:230px;height:230px;border-radius:50%;background:radial-gradient(circle,#62d5ff55,transparent 65%);top:35px;left:45px}.codecard{position:absolute;left:30px;right:30px;bottom:28px;padding:20px;border-radius:18px;background:#080d18e8;border:1px solid #263653;box-shadow:0 20px 60px #0008;font:13px/1.8 ui-monospace,monospace;color:#b8c8df}.codecard b{color:#fff}.cyan{color:var(--accent)}.purple{color:#b79cff}
+section{padding:80px 0}.sectionhead{margin-bottom:36px}.kicker{color:var(--accent);font-size:13px;text-transform:uppercase;letter-spacing:2px;font-weight:800}.sectionhead h2{font-size:40px;line-height:1.1;margin:8px 0}.sectionhead p{color:var(--muted);max-width:700px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:20px;padding:24px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.metric{font-size:36px;font-weight:900}.metric small{display:block;font-size:13px;color:var(--muted);font-weight:500}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.tag{padding:6px 10px;border:1px solid var(--line);border-radius:999px;font-size:12px;color:#c9d6ea}
+.project{display:flex;flex-direction:column;min-height:310px}.project .more{margin-top:auto;padding-top:22px;color:var(--accent);font-weight:700}.project a:hover{text-decoration:underline}
+.timeline{position:relative;margin-left:10px}.job{position:relative;padding:0 0 36px 34px;border-left:1px solid var(--line)}.job:before{content:"";position:absolute;left:-6px;top:4px;width:11px;height:11px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px #62d5ff18}.job h3{margin:0}.job .date{color:var(--accent);font-size:13px;font-weight:700}.job p{color:var(--muted)}.job ul{color:#c5d0e1}.skills{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.skill{padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel);text-align:center;font-weight:700}
+.quote{padding:36px;border-radius:24px;background:linear-gradient(120deg,#101b31,#0c1321);border:1px solid var(--line);font-size:24px;font-weight:700}.quote span{display:block;color:var(--muted);font-size:13px;margin-top:14px;font-weight:500}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact a{display:block}.contact .card:hover{border-color:#48618d}.footer{padding:40px 0 55px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:20px}
+.reveal{opacity:0;transform:translateY(18px);transition:.7s}.reveal.show{opacity:1;transform:none}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:80px}.orb{display:none}.grid,.contact{grid-template-columns:1fr 1fr}.skills{grid-template-columns:repeat(3,1fr)}.navlinks{display:none}}
+@media(max-width:560px){.grid,.contact{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.hero h1{letter-spacing:-2px}.sectionhead h2{font-size:32px}.footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="container navin"><a class="brand" href="#top">Suresh<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+
+<main id="top">
+<section class="hero container reveal">
+<div>
+<div class="eyebrow">● SDET Lead · Automation Architect · Quality Engineering</div>
+<h1>I turn <span class="gradient">quality engineering</span> into a competitive advantage.</h1>
+<p>7+ years of experience building enterprise-grade automation, API-first testing and CI/CD quality gates. I combine hands-on engineering with mentoring, framework architecture and AI-assisted delivery to help teams ship with confidence.</p>
+<div class="actions">
+<a class="btn primary" href="#projects">View my work</a>
+<a class="btn" href="mailto:sureshraviprashanth@gmail.com">Let's connect</a>
+<a class="btn" href="https://www.linkedin.com/in/suresh-prashanth-11a617168/" target="_blank">LinkedIn ↗</a><a class="btn" href="https://github.com/Sureshprashanth" target="_blank">GitHub ↗</a>
+</div>
+</div>
+<div class="orb">
+      <div class="codecard">
+        <span class="purple">SDET</span> <b>LEAD</b><br>
+        <span class="cyan">7+</span> years enterprise QA<br>
+        <span class="cyan">13+</span> repositories standardized<br>
+        <span class="cyan">40%</span> velocity improvement<br>
+        <span class="cyan">35%</span> fewer release defects<br>
+        <span class="purple">API</span> + UI + E2E + CI/CD<br>
+        <span class="purple">AI-assisted</span> engineering
+      </div>
+    </div>
+</section>
+
+<section id="about"><div class="container reveal"><div class="sectionhead"><div class="kicker">Profile</div><h2>Engineering quality that scales.</h2><p>I’m an SDET Lead focused on the space where software engineering, test automation and delivery meet. My strength is turning fragile or fragmented testing into scalable systems that teams can trust.</p></div>
+<div class="grid"><div class="card"><div class="metric">40%<small>velocity improvement through AI-assisted engineering</small></div></div><div class="card"><div class="metric">35%<small>reduction in release defects through quality gates</small></div></div><div class="card"><div class="metric">13+<small>enterprise repositories unified under framework standards</small></div></div></div></div><div class="grid" style="margin-top:18px">
+<div class="card"><h3>Architect</h3><p>Designing maintainable automation frameworks, reusable components and test strategies built for scale.</p></div>
+<div class="card"><h3>Engineer</h3><p>Hands-on across Playwright, Selenium, TypeScript, Java, API testing, CI/CD and modern debugging workflows.</p></div>
+<div class="card"><h3>Multiplier</h3><p>Mentoring engineers, reviewing code and sharing practical automation knowledge through training and open source.</p></div>
+</div></section>
+
+<section id="projects"><div class="container reveal"><div class="sectionhead"><div class="kicker">Featured work</div><h2>Proof of how I build.</h2></div><div class="grid">
+<article class="card project"><h3>Test Automation Starter Kit</h3><p>Enterprise-grade Playwright framework built around Hybrid POM, Cucumber, multi-environment configuration, parallel execution, reporting, structured logging and Docker.</p><div class="tags"><span class="tag">Playwright</span><span class="tag">TypeScript</span><span class="tag">Cucumber</span><span class="tag">Docker</span></div><a class="more" href="https://github.com/Sureshprashanth/test-automation-starter-kit" target="_blank">Explore repository ↗</a></article>
+<article class="card project"><h3>Advanced Playwright Demos</h3><p>A practical collection of advanced UI, API and E2E patterns including visual regression, API mocking, performance metrics, multi-browser testing, fixtures and trace-based debugging.</p><div class="tags"><span class="tag">Playwright</span><span class="tag">API</span><span class="tag">E2E</span><span class="tag">Testing</span></div><a class="more" href="https://github.com/Sureshprashanth/advanced-playwright-demos" target="_blank">Explore repository ↗</a></article>
+<article class="card project"><h3>Enterprise Quality Engineering</h3><p>I design practical quality strategies around automation architecture, API-first validation, CI/CD gates, stability, code reviews and engineering standards — with measurable delivery outcomes.</p><div class="tags"><span class="tag">CI/CD</span><span class="tag">Architecture</span><span class="tag">Leadership</span><span class="tag">Quality</span></div></article>
+</div></div></section>
+
+<section><div class="container reveal"><div class="sectionhead"><div class="kicker">Find me online</div><h2>More than a resume.</h2><p>See my professional journey, engineering work and open-source projects.</p></div><div class="contact">
+<a class="card" href="https://www.linkedin.com/in/suresh-prashanth-11a617168/" target="_blank"><h3>LinkedIn ↗</h3><p>7 years of QA / SDET experience · 730+ followers · 500+ connections</p></a>
+<a class="card" href="https://github.com/Sureshprashanth" target="_blank"><h3>GitHub ↗</h3><p>Explore automation frameworks, Playwright demos and engineering experiments.</p></a>
+</div></div></section><section id="experience"><div class="container reveal"><div class="sectionhead"><div class="kicker">Career</div><h2>Experience</h2></div><div class="timeline">
+<div class="job"><div class="date">JUL 2025 — PRESENT</div><h3>SDET Lead · Accion Labs</h3><p>Scale & unify enterprise testing.</p><ul><li>Unified 13+ repositories under a single automation standard.</li><li>Improved team velocity by 40% through GitHub Copilot adoption.</li><li>Reduced release defects by 35% with CI/CD quality gates.</li><li>Led code reviews, mentoring and engineering standards.</li></ul></div>
+<div class="job"><div class="date">AUG 2022 — JUL 2025</div><h3>Software Test Engineer II · UST Global</h3><p>Enterprise automation at scale.</p><ul><li>Designed Java + Selenium WebDriver automation for large-scale applications.</li><li>Built reusable Page Object component libraries and Jenkins reporting.</li><li>Drove shift-left testing with risk-based coverage planning.</li></ul></div>
+<div class="job"><div class="date">JUL 2021 — JUL 2022</div><h3>Software Test Engineer · Cognizant Technology Solutions</h3><p>Modernizing enterprise testing.</p><ul><li>Automated UI regression with Selenium + TestNG.</li><li>Built API testing suites with REST Assured.</li><li>Received the Shining Star Award (2022).</li></ul></div>
+<div class="job"><div class="date">NOV 2018 — JUN 2021</div><h3>Software Test Engineer · TPF Software</h3><p>Building quality foundations through functional, regression, smoke and API coverage.</p></div>
+</div></div></section>
+
+<section><div class="container reveal"><div class="sectionhead"><div class="kicker">Beyond delivery</div><h2>Engineer. Mentor. Builder.</h2><p>I also bring a strong knowledge-sharing mindset: practical automation training, hands-on mentoring and real-world QA guidance.</p></div><div class="grid">
+<div class="card"><h3>Automation Trainer</h3><p>Delivered offline Selenium & Java automation training, created exercises and helped learners build interview-ready automation fundamentals.</p></div>
+<div class="card"><h3>Mentor</h3><p>Known for breaking complex automation concepts into practical, understandable patterns and supporting engineers beyond formal sessions.</p></div>
+<div class="card"><h3>Open Source</h3><p>Sharing battle-tested automation patterns to help teams reduce framework design effort and improve engineering quality.</p></div>
+</div></div></section><section id="skills"><div class="container reveal"><div class="sectionhead"><div class="kicker">Toolkit</div><h2>The engineering toolkit.</h2></div><div class="skills">
+<div class="skill">Playwright</div><div class="skill">TypeScript</div><div class="skill">Java</div><div class="skill">Selenium</div><div class="skill">REST Assured</div>
+<div class="skill">Cucumber</div><div class="skill">TestNG</div><div class="skill">Postman</div><div class="skill">Jenkins</div><div class="skill">GitHub Actions</div>
+<div class="skill">Azure DevOps</div><div class="skill">Docker</div><div class="skill">Git</div><div class="skill">Jira</div><div class="skill">AI-assisted QA</div>
+</div></div></section>
+
+<section><div class="container reveal"><div class="quote">“Great test automation isn't just about writing tests — it's about designing scalable, maintainable frameworks that give organizations confidence in their quality.”<span>— Suresh Prashanth</span></div></div></section>
+
+<section id="contact"><div class="container reveal"><div class="sectionhead"><div class="kicker">Let's connect</div><h2>Let’s build better quality.</h2><p>I'm interested in test automation architecture, scalable QA organizations, AI-assisted engineering and SDET / QA leadership opportunities.</p></div><div class="contact">
+<a class="card" href="mailto:sureshraviprashanth@gmail.com"><h3>Email</h3><p>sureshraviprashanth@gmail.com</p></a>
+<a class="card" href="https://www.linkedin.com/in/suresh-prashanth-11a617168/" target="_blank"><h3>LinkedIn</h3><p>Connect with Suresh Prashanth ↗</p></a>
+<a class="card" href="https://github.com/Sureshprashanth" target="_blank"><h3>GitHub</h3><p>@Sureshprashanth ↗</p></a>
+<a class="card" href="https://github.com/Sureshprashanth/test-automation-starter-kit" target="_blank"><h3>Open Source</h3><p>Explore my automation work ↗</p></a>
+</div></div></section>
+</main>
+
+<footer class="container footer"><span>© 2026 Suresh Prashanth</span><span>SDET Lead · Automation Architecture · Quality Engineering · AI-assisted delivery</span></footer>
+<script>
+const observer=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('show')),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(e=>observer.observe(e));
+</script>
+</body>
+</html>
